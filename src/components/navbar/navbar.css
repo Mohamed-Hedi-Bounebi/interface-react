@@ -1,0 +1,27 @@
+*{
+    padding: 0;/* tna7i lhemch dekhli*/
+    margin: 0;/* tna7i lhemch lbarani*/
+}
+body{
+    font-family: 'tahoma'; /*bch nbadel lkhat nhot esmou*/
+}
+.navbar{
+    background-color: blue;
+    display: flex; /* ay heja verticale trodha horizontale*/
+    justify-content: space-around;/* espace mebin kol élément*/
+    align-items: center; /* tcenter chaque élément*/
+    padding: 30px 0; /*padding: top right bottom left padding : 10px 0 càad top = bottom = 10px right = left 0*/
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 0 25px;
+}
+.navbar ul li a{
+    color: #fff;
+}

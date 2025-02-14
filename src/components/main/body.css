@@ -1,0 +1,14 @@
+.main{
+    text-align: center;
+    padding-top: 50px;
+    height: calc(100vh - 208.4px);
+}
+.main img{
+ width: 400px;
+}
+.main h1{
+    padding-bottom: 15px;
+}
+.main h1 span{
+    color: red;
+}
